@@ -1,0 +1,51 @@
+#titulo{
+    background-color: #ECF0F1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 25%;
+    width: 100% ;
+    text-align: center;
+}
+
+.botonEnviar{
+    height: 40px;
+    width: 100px;
+}
+
+#enviar{
+    margin-left: 660px;
+}
+
+.botonVolver{
+    height: 40px;
+    width: 100px;
+}
+
+#volver{
+ margin-left: 210px;
+}
+
+@media only screen and (max-width: 600px) {
+    #archivosAdjuntos {
+        height: 125%;
+        width: 100% ;
+    }
+
+    #titulo{
+        height: 40%;
+    }
+
+    #enviar{
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    #volver{
+        margin-left: 0px;
+    }
+    .imagenes{
+        width: 340px;
+        height: 45px;
+    }
+}

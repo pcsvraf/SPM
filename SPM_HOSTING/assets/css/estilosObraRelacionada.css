@@ -1,0 +1,21 @@
+#titulo{
+    background-color: #ECF0F1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 25%;
+    width: 100% ;
+    text-align: center;
+}
+
+#titulo2{
+    background-color: #ECF0F1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 25%;
+    width: 100% ;
+    text-align: center;
+}

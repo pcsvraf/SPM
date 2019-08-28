@@ -1,0 +1,81 @@
+.footer-basic-centered2{
+    background-color: #12548c;
+    width: 100%;
+    text-align: center;
+    font: normal 15px sans-serif;
+}
+
+.footer-basic-centered2 .footer-links .icono{
+    float: right;
+    margin-right: 30px;
+}
+
+.footer-basic-centered2 .footer-links .icono3{
+    float: right;
+    margin-right:7px;
+}
+
+.footer-basic-centered2 .footer-links .icono1{
+    float: right;
+    margin-right: 30px;
+}
+
+.footer-basic-centered2 .footer-links .icono2{
+    float: right;
+    margin-right:7px;
+}
+
+.footer-basic-centered2 .footer-links{
+    list-style: none;
+    font-weight: bold;
+    color:  #ffffff;
+    padding: 15px 0 15px;
+    margin: 0;
+    height: 55px;
+}
+
+.footer-basic-centered2 .footer-links a{
+    display:inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+    .footer-basic-centered2{
+        padding: 15px;
+    }
+
+    .footer-basic-centered2 .footer-company-name{
+        font-size: 12px;
+    }
+
+    .footer-basic-centered2 .footer-links{
+        font-size: 14px;
+        padding: 25px 0 20px;
+    }
+
+    .footer-basic-centered2 .footer-links a{
+        line-height: 1.8;
+    }
+
+    .footer-basic-centered2 .footer-links .icono{
+        float: right;
+        margin-right: 8px;
+    }
+
+    .footer-basic-centered2 .footer-links .icono3{
+        float: right;
+    }
+
+    .footer-basic-centered2 .footer-links .icono1{
+        float: right;
+        margin-right: 30px;
+    }
+
+    .footer-basic-centered2 .footer-links .icono2{
+        float: right;
+    }
+}
