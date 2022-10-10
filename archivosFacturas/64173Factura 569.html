@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://vaf.ucv.cl:8443/ServidorJsp/VerFactura/mostrarFE.jsp -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sistema Gestión Boletas de Honorarios">
+    <meta name="author" content="Unidad de Sistemas - PUCV">
+    
+    
+    <!-- Iconos & Color -->
+    <link rel="apple-touch-icon" sizes="57x57" href="https://vaf.ucv.cl:8443/ServidorJsp/comunes/images/ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://vaf.ucv.cl:8443/ServidorJsp/comunes/images/ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://vaf.ucv.cl:8443/ServidorJsp/comunes/images/ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://vaf.ucv.cl:8443/ServidorJsp/comunes/images/ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://vaf.ucv.cl:8443/ServidorJsp/comunes/images/ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://vaf.ucv.cl:8443/ServidorJsp/comunes/images/ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://vaf.ucv.cl:8443/ServidorJsp/comunes/images/ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://vaf.ucv.cl:8443/ServidorJsp/comunes/images/ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://vaf.ucv.cl:8443/ServidorJsp/comunes/images/ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://vaf.ucv.cl:8443/ServidorJsp/comunes/images/ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://vaf.ucv.cl:8443/ServidorJsp/comunes/images/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://vaf.ucv.cl:8443/ServidorJsp/comunes/images/ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://vaf.ucv.cl:8443/ServidorJsp/comunes/images/ico/favicon-16x16.png">
+    <link rel="manifest" href="https://vaf.ucv.cl:8443/ServidorJsp/comunes/images/ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../comunes/images/ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+    <title>Consulta Factura</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./Factura 569_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- All Themes -->
+    <link href="./Factura 569_files/bootstrap.css" rel="stylesheet">
+
+    <!-- CSS de Impresion -->
+    <link rel="stylesheet" type="text/css" href="./Factura 569_files/imprimir.css" media="print">
+
+    <!-- Personalizacion APP -->
+    <link href="./Factura 569_files/app.css" rel="stylesheet">
+    <link href="./Factura 569_files/app_colors.css" rel="stylesheet">
+
+
+    <!-- Jquery UI -->
+    <link rel="stylesheet" href="./Factura 569_files/jquery-ui.css">
+    
+    
+    <!--Formulario Consulta Factura-->
+    <link rel="stylesheet" href="./Factura 569_files/consultaFact.css">
+
+
+</head>
+
+    <body>
+
+        <link href="./Factura 569_files/factura.css" rel="stylesheet">
+
+                
+        
+
+        <div class="container">
+
+            
+
+            <div class="row buttons imprimir">
+                <div class="col-md-12">
+                    <a class="btn btn-default" href="javascript:window.print()">Imprimir Factura</a>
+                    <a class="btn btn-default btn-close" onclick="window.close();">X</a>
+                    <hr>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="factura">
+
+    <!--<div class="marca">FORMATO SOLO DE CONSULTA DIRECCION DE FINANZAS</div>-->
+
+    <div class="margin">
+
+        <div class="proveedor">RENE ARMANDO OLIVARES BASUALTO</div>
+        <div class="info">
+            <div class="rut">RUT: 6169114-6</div>
+            <div class="giro">GIRO: CONTRATISTA OBRAS MENORES</div>
+            <div>LOS HELECHOS, LOMAS LAS T 131   ACHUPPALLAS</div>
+            <div>TELEFONO: 32 2842078</div>
+        </div>
+
+        <div class="numeracion">
+            <div class="rut">R.U.T.: 6169114-6</div>
+            <div>FACTURA ELECTRONICA</div>
+            <div class="numero">Nº 569</div>
+        </div>
+
+        <div class="separa"></div>
+
+        <div class="empresa">
+            <table>
+                <tbody><tr>
+                    <td class="bold gris titulo">Señor(a) Receptor:</td>
+                    <td>PONTIFICIA UNIVERSIDAD CATOLICA DE VALPARAISO</td>
+                </tr>
+
+                <tr>
+                    <td class="bold gris">Rut:</td>
+                    <td>81669200-8</td>
+                </tr>
+
+                <tr>
+                    <td class="bold gris">Dirección:</td>
+                    <td>AV BRASIL 2950</td>
+                </tr>
+
+                <tr>
+                    <td class="bold gris">Giro:</td>
+                    <td>CULTIVO DE OTRAS PLANTAS PERENNES</td>
+                </tr>
+
+                <tr>
+                    <td class="bold gris">Fono:</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td class="bold gris">Ciudad:</td>
+                    <td>VALPARAISO</td>
+                </tr>
+
+                <tr>
+                    <td class="bold gris">Fecha de Emisión:</td>
+                    <td>06 mayo 2021</td>
+                </tr>
+
+                <tr>
+                    <td class="bold gris">Atendido Por:</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    <td class="bold gris">Cliente:</td>
+                    <td>--</td>
+                </tr>
+                
+                <tr>
+                    <td class="bold gris">Referencia:</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    <td class="bold gris">Forma de Pago:</td>
+                    <td>Crédito</td>
+                </tr>
+
+            </tbody></table>
+        </div>
+
+        <div class="productos">
+            <table>
+                <tbody><tr class="gris">
+                    <td colspan="7" class="detalle">Detalle</td>
+                </tr>
+
+                <tr class="bold gris center">
+                    <td>#</td>
+                    <td>Código</td>
+                    <td class="descripcion">Descripción</td>
+                    <td>Cantidad</td>
+                    <td class="monto">$ Unitario</td>
+                    <td>Desc $</td>
+                    <td class="monto">Total</td>
+                </tr>
+
+                <tr><td class="center">1</td><td></td><td>- Saldo:  Cambio de Ventanas Educacion Fisica , Campus Sausalito PUCV.</td><td class="derecha">1</td><td class="derecha">$ 643.755</td><td>&nbsp;</td><td class="derecha">$ 643.755</td></tr>
+                
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="bold gris">Monto Exento</td>
+                    <td class="derecha">$ 0</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="bold gris">Monto Neto</td>
+                    <td class="derecha">$ 643.755</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="bold gris">IVA</td>
+                    <td class="derecha">$ 122.313</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="bold gris">Total Factura</td>
+                    <td class="derecha">$ 766.068</td>
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="bold gris">Saldo Anterior</td>
+                    <td class="derecha">$ 0</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="bold gris">Total a Pagar</td>
+                    <td class="derecha">$ 766.068</td>
+                </tr>
+
+                <tr>
+                    <td colspan="7" class="bold">SON: Setecientos Sesenta y Seis mil Sesenta y Ocho</td>
+                </tr>
+
+                <tr>
+                    <td colspan="7" class="bold">Observación:</td>
+                </tr>
+            </tbody></table>
+        </div>
+
+        <div class="separa bottom"></div>
+
+        <div>
+            <p><!--Footer --></p>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="foot"></div>
+
+<hr>
+<div class="cont_timbre"><img src="./Factura 569_files/33_569_6169114-6.jpg"><div class="cont_timbre_txt"><strong>Timbre Electrónico S.I.I.</strong><br>verifique documento: www.sii.cl</div></div>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+        <div style="margin-bottom: 50px"></div>
+        <!-- /.container -->
+
+        <!-- Footer -->
+        
+        
+
+        <!-- Script -->
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="./Factura 569_files/1.11.2_jquery.min.js.descarga"></script>
+<script src="./Factura 569_files/bootstrap.min.js.descarga"></script>
+
+<!-- Funciones Propias -->
+<script src="./Factura 569_files/consultaFact.js.descarga"></script>
+
+    
+
+</body></html>
